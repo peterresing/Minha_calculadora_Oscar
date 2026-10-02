@@ -13,7 +13,7 @@ function calcular(a, b, operador) {
         case '/': 
             return num2 !== 0 ? 
                 num1 / num2 : 
-                "Error: división por cero";
+                "Error: dividido por zero";
         default: 
             return "Operador inválido";
     }
